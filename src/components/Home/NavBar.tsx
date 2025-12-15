@@ -1,14 +1,20 @@
 import "./navbar.css";
+
 function NavBar() {
   return (
-    <div>
-      <h1 className="navbar-title">NavBar</h1>
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
-      </ul>
-    </div>
+    <nav className="navbar">
+      <div className="navbar-container">
+        <div className="navbar-logo">
+          Personal Shape
+        </div>
+        <ul className="navbar-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
   );
 }
 
